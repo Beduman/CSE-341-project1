@@ -1,0 +1,14 @@
+## GET contacts
+GET http://localhost:3000/users
+
+## POST contact
+POST http://localhost:3000/users HTTP/1.1
+content-Type: application/json
+
+{
+    "firstName": "Billy", 
+    "lastName": "Bob", 
+    "email": "testing@123.com", 
+    "favoriteColor": "blue", 
+    "birthday": "1990-01-01"
+}

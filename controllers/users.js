@@ -16,9 +16,7 @@ const getAll = async (req, res) => {
 
 const getSingle = async (req, res) => {
     //#swagger.tags = ['Users']
-    if (!isValidObjectId(userId)) {
-        return res.status(400).json({ error: 'Invalid user ID format' });
-    }
+    
     const contactId = new ObjectId(req.params.id);
     const result = await mongodb.getDatabase().collection('contacts').find({ _id: contactId });
     result.toArray()

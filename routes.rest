@@ -1,5 +1,8 @@
 ## GET contacts
-GET http://localhost:3000/users
+//GET http://localhost:3000/users
+
+## GET contact by ID
+GET http://localhost:3000/users/682581dd724198380dd3ff4b
 
 ## POST contact
 POST http://localhost:3000/users HTTP/1.1

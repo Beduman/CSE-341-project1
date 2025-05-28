@@ -55,7 +55,7 @@ const updateUser = async (req, res) => {
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthDate
+        birthday: req.body.birthday
     };
 
     const response = await mongodb.getDatabase().collection('contacts').replaceOne({ _id: contactId }, updatedContact);

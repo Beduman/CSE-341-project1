@@ -1,0 +1,10 @@
+PUT http://localhost:3000/users/682d3fdebf2c195ba8254f55
+content-Type: application/json
+
+{
+    "firstName": "Billy", 
+    "lastName": "Bob", 
+    "email": "testing@123.com", 
+    "favoriteColor": "yellow", 
+    "birthday": "1990-01-01"
+}

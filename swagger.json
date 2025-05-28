@@ -128,7 +128,7 @@
                 "favoriteColor": {
                   "example": "any"
                 },
-                "birthDate": {
+                "birthday": {
                   "example": "any"
                 }
               }
